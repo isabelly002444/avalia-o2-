@@ -1,0 +1,58 @@
+Perfeito! Abaixo estão os **algoritmos em Java** para as duas questões propostas, com explicações comentadas para facilitar o entendimento.
+
+---
+
+## ✅ **Questão 01: Cálculo de Área e Perímetro**
+
+```java
+public class Retangulo {
+    public static void main(String[] args) {
+        // Declaração das variáveis base e altura
+        double base = 5.5;
+        double altura = 3.0;
+
+        // Cálculo da área e do perímetro
+        double area = base * altura;
+        double perimetro = 2 * (base + altura);
+
+        // Exibição dos resultados no console
+        System.out.println("Área do retângulo: " + area);
+        System.out.println("Perímetro do retângulo: " + perimetro);
+    }
+}
+```
+
+### 🧠 **Explicação rápida:**
+
+* `double` é usado para representar números decimais.
+* A área é `base × altura`.
+* O perímetro é `2 × (base + altura)`.
+
+---
+
+## ✅ **Questão 02: Comparação de Idades**
+
+```java
+public class ComparacaoIdades {
+    public static void main(String[] args) {
+        // Idades das duas pessoas
+        int idadePessoa1 = 30;
+        int idadePessoa2 = 25;
+
+        // Comparação
+        boolean pessoa1MaisVelha = idadePessoa1 > idadePessoa2;
+
+        // Exibição do resultado
+        System.out.println("A primeira pessoa é mais velha: " + pessoa1MaisVelha);
+    }
+}
+```
+
+### 🧠 **Explicação rápida:**
+
+* `int` é usado para idades (números inteiros).
+* A variável `pessoa1MaisVelha` armazena o resultado da comparação `idadePessoa1 > idadePessoa2`, que será `true` ou `false`.
+
+---
+
+Se quiser, posso te ajudar a rodar esse código na IntelliJ IDEA ou exportar como projeto. Deseja isso?
