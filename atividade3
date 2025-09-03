@@ -1,0 +1,81 @@
+Claro! Vamos analisar cada **questão-problema** separadamente, identificando:
+
+* As **variáveis necessárias**
+* Os **tipos de dados** apropriados para cada uma
+* E uma **variável adicional sugerida**, com seu tipo de dado
+
+---
+
+### ✅ **Questão-Problema 01: Cadastro de Aluno**
+
+**Informações necessárias:**
+
+* Nome completo do aluno
+* Idade
+* Altura (em metros)
+* Está matriculado (sim ou não)
+
+#### 📌 **Variáveis e tipos:**
+
+| Variável          | Tipo de Dado | Justificativa                     |
+| ----------------- | ------------ | --------------------------------- |
+| `nomeAluno`       | `String`     | Armazena texto (nome completo)    |
+| `idade`           | `int`        | Idade é um número inteiro         |
+| `altura`          | `double`     | Altura pode conter casas decimais |
+| `estaMatriculado` | `boolean`    | Verdadeiro ou falso               |
+
+#### ➕ **Variável adicional sugerida:**
+
+* `curso` – `String` → para armazenar o nome do curso do aluno
+
+---
+
+### ✅ **Questão-Problema 02: Informações de Produto**
+
+**Informações necessárias:**
+
+* Nome do produto
+* Quantidade em estoque
+* Preço unitário
+* Está disponível para venda
+
+#### 📌 **Variáveis e tipos:**
+
+| Variável            | Tipo de Dado | Justificativa                    |
+| ------------------- | ------------ | -------------------------------- |
+| `nomeProduto`       | `String`     | Nome é representado por texto    |
+| `quantidadeEstoque` | `int`        | Quantidade é um número inteiro   |
+| `precoUnitario`     | `double`     | Preço pode conter casas decimais |
+| `disponivelVenda`   | `boolean`    | Verdadeiro ou falso              |
+
+#### ➕ **Variável adicional sugerida:**
+
+* `categoriaProduto` – `String` → para indicar a categoria (ex: Eletrônico, Alimentício, etc.)
+
+---
+
+### ✅ **Questão-Problema 03: Dados de um Evento**
+
+**Informações necessárias:**
+
+* Nome do evento
+* Número de participantes esperados
+* Preço do ingresso
+* Será presencial ou não
+
+#### 📌 **Variáveis e tipos:**
+
+| Variável           | Tipo de Dado | Justificativa                     |
+| ------------------ | ------------ | --------------------------------- |
+| `nomeEvento`       | `String`     | Nome do evento é texto            |
+| `numParticipantes` | `int`        | Número de participantes é inteiro |
+| `precoIngresso`    | `double`     | Preço pode conter decimais        |
+| `eventoPresencial` | `boolean`    | Verdadeiro ou falso               |
+
+#### ➕ **Variável adicional sugerida:**
+
+* `dataEvento` – `String` (ou `LocalDate`, dependendo da linguagem) → para registrar a data do evento
+
+---
+
+Se você quiser, posso montar um **exemplo de código Java** com essas variáveis organizadas em classes. Deseja isso também?
