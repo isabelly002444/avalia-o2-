@@ -1,0 +1,101 @@
+Perfeito! Aqui está um passo a passo completo para você realizar **a atividade prática da Aula 02**, que envolve:
+
+1. Instalar a **JDK** (Java Development Kit)
+2. Instalar a **IDE IntelliJ IDEA**
+3. Criar um projeto Java
+4. Criar uma classe com o método `main`
+5. Imprimir seu nome no console
+
+---
+
+## ✅ **1. Instalar a JDK**
+
+A JDK é essencial para compilar e executar programas em Java.
+
+### Passos:
+
+1. Acesse o site oficial da Oracle ou OpenJDK:
+
+   * [JDK da Oracle](https://www.oracle.com/java/technologies/javase-downloads.html)
+   * [OpenJDK](https://jdk.java.net/)
+
+2. Baixe a versão recomendada para o seu sistema operacional (Windows, macOS ou Linux)
+
+3. Instale seguindo as instruções do instalador
+
+4. (Opcional, mas recomendado) Verifique a instalação:
+
+   * Abra o terminal ou prompt de comando
+   * Digite:
+
+     ```
+     java -version
+     ```
+
+     e
+
+     ```
+     javac -version
+     ```
+   * Você deve ver a versão instalada da JDK.
+
+---
+
+## ✅ **2. Instalar a IntelliJ IDEA**
+
+A IntelliJ é uma IDE poderosa para desenvolvimento em Java.
+
+### Passos:
+
+1. Vá para o site oficial: [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)
+2. Baixe a versão **Community** (gratuita)
+3. Instale a IDE normalmente
+
+---
+
+## ✅ **3. Criar um projeto em Java**
+
+### Passos:
+
+1. Abra o IntelliJ IDEA
+2. Clique em **"New Project"**
+3. Selecione **Java** como linguagem
+4. Escolha a versão da JDK instalada
+5. Clique em **Next > Next > Finish**
+
+---
+
+## ✅ **4. Criar uma classe com o método principal**
+
+### Exemplo:
+
+1. Dentro do projeto, clique com o botão direito em `src` → **New > Java Class**
+2. Nomeie a classe como `MeuNome`
+
+### Código da classe:
+
+```java
+public class MeuNome {
+    public static void main(String[] args) {
+        System.out.println("Seu Nome Aqui");
+    }
+}
+```
+
+📌 **Substitua `"Seu Nome Aqui"` pelo seu nome real.**
+
+---
+
+## ✅ **5. Executar o programa**
+
+1. Clique com o botão direito sobre o arquivo `MeuNome.java`
+2. Selecione **"Run MeuNome.main()"**
+3. O console da IDE irá mostrar:
+
+   ```
+   Seu Nome Aqui
+   ```
+
+---
+
+Se quiser, posso gerar um modelo de relatório simples ou o código pronto para você copiar e colar. Deseja isso também?
